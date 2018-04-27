@@ -9,7 +9,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>KLCC</title>
+  <title>The College Process</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -25,24 +25,20 @@
 
   <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 </head>
-
 <body>
-  <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
   <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container">
       <div class="navbar-header">
-        <a class="navbar-brand" href="#">The College Counselor</a>
+        <a class="navbar-brand" href="index.html">The College Counselor</a>
       </div>
       <div id="navbar" class="navbar-collapse collapse">
         <form class="navbar-form navbar-right" role="form">
-          <div class="form-group">
-            <a href="Testing.html">Standardized Testing</a>
-            <a href="Essays.html">College Essays</a>
-            <a href="MustKnows.html">Must Knows</a>
-            <a href="FinAid.html">Financial Aid</a>
-          </div>
+        <div class="form-group">
+        <a href="Testing.html">Standardized Testing</a>
+        <a href="Essays.html">College Essays</a>
+        <a href="MustKnows.html">Must Knows</a>
+        <a href="FinAid.html">Financial Aid</a>
+      </div>
       </div>
       </form>
     </div>
@@ -51,9 +47,8 @@
   <!-- Main jumbotron for a primary marketing message or call to action -->
   <div class="jumbotron">
     <div class="container">
-      <h1>Need college advice?</h1>
-      <p>Use this website to gain insight on your college application process.</p>
-      <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+      <h1>The Process</h1>
+      <p>This section details the process on how to apply to colleges. It also talks about the different ways you can apply.</p>
     </div>
   </div>
 
@@ -61,26 +56,56 @@
     <!-- Example row of columns -->
     <div class="row">
       <div class="col-md-4">
-        <h2>Connect</h2>
-        <p>Connect with knowledgeable individuals who recently have gone through the process, or those who work in the field of college counseling.</p>
-        <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        <h2>The Process in Brief</h2>
+        <p>Click on the 'More Info' button right below to be navigated to the CollegeBoard Access site, where they provide brief summaries of the entire college application process.</p>
+        <p><a class="btn btn-default" href="https://bigfuture.collegeboard.org/get-in" role="button">More Info &raquo;</a></p>
       </div>
       <div class="col-md-4">
         <h2></h2>
         <p>
       </div>
       <div class="col-md-4">
-        <h2>Low-Income Focused</h2>
-        <p>Rather than the exorbitant fees that a college counselor usually demands, this website is entirely free- everyone helps another, for the enhancement of society.</p>
-        <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        <h2>Specifics to know about the process</h2>
+        <p>Click on the accordion section below, titled View Details, to see more on the College Application Process as a whole.</p>
       </div>
 
       <hr>
+
+        <div class="centeredDiv">
+
+            <section>
+            <A NAME="specifics"></a>
+            <button class="accordion" style="text-align:center">View Details</button>
+            <div class="panel" align=center>
+              <p style="font-size:150%;">So you wanna know more about the College Application Process as a whole, huh? Well, this guide will show you everything.</p>
+              <iframe align=middle width=700 height=700 src=https://www.usnews.com/education/best-colleges/articles/college-application-process></iframe>
+            </div>
+          </section>
 
       <footer>
         <p>&copy; 20Time, a Project by Leilee Naderi and Kedar Abhyankar</p>
       </footer>
     </div>
+    <script>
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+          /* Toggle between adding and removing the "active" class,
+          to highlight the button that controls the panel */
+          this.classList.toggle("active");
+
+          /* Toggle between hiding and showing the active panel */
+          var panel = this.nextElementSibling;
+          if (panel.style.display === "block") {
+            panel.style.display = "none";
+          } else {
+            panel.style.display = "block";
+          }
+        });
+      }
+    </script>
     <!-- /container -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script>

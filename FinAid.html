@@ -51,8 +51,8 @@
   <!-- Main jumbotron for a primary marketing message or call to action -->
   <div class="jumbotron">
     <div class="container">
-      <h1>Need college advice?</h1>
-      <p>Use this website to gain insight on your college application process.</p>
+      <h1>Financial Aid</h1>
+      <p>This portion of the site details the different parts of Financial Aid.</p>
       <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
     </div>
   </div>
@@ -61,26 +61,66 @@
     <!-- Example row of columns -->
     <div class="row">
       <div class="col-md-4">
-        <h2>Connect</h2>
-        <p>Connect with knowledgeable individuals who recently have gone through the process, or those who work in the field of college counseling.</p>
-        <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        <h2>What is Financial Aid?</h2>
+        <p>Financial Aid is when a university or higher-level institution gives you a scholarship. It's essentially money to help pay for your school. Students don't have to pay them back, and they come out of merit, or out of a need-based situation.</p>
       </div>
       <div class="col-md-4">
         <h2></h2>
         <p>
       </div>
       <div class="col-md-4">
-        <h2>Low-Income Focused</h2>
-        <p>Rather than the exorbitant fees that a college counselor usually demands, this website is entirely free- everyone helps another, for the enhancement of society.</p>
-        <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        <h2>What is Need-Based Financial Aid?</h2>
+        <p>Need Based Financial Aid is when a school believes that you will need financial aid based on your family's gross income. Often times, schools are also Need-Blind: this means that they won't look at whether you need money based on your family's financial situation, but will be purely based on merit and your abilities as a student.</p>
       </div>
-
+      <section>
+      <A NAME="specifics"></a>
+      <button class="accordion" style="text-align:center">View Details</button>
+      <div class="panel" align=center>
+        <p style="font-size:125%;">For Financial Aid, you'll want to keep a close eye on the FAFSA, or the "Free Application for Federal Student Aid". The website is shown below. You'll want to make sure this form is 100% Accurate, and make sure to do it with a parent or legal guardian.</p>
+        <iframe align=middle width=700 height=700 src=https://fafsa.ed.gov/></iframe>
+        <br>
+        <br>
+        <br>
+        <p style="font-size:125%;" align=middle>Also, you'll want to make sure to find out if you are eligible for a Fee Waiver. Fee Waivers will often give you a free admission fee for a college, voiding the $60-80 fee for applying to colleges.
+        <br>
+        <br>
+        <br>
+        <img src=https://c1.staticflickr.com/4/3807/9281116354_f698c92834.jpg align=middle></image>
+        <br>
+        <br>
+        <br>
+        <p style="font-size:125%;" align=middle>You'll also want to find out about whether or not your school offers scholarships. Often times, schools will offer a small chunk of money for scholarships based on your contribution to the school as a student, be it in leadership roles or just helping out. Normally students receive this for working very hard in school, keeping their grades up, and also committing themselves to their high school. If you're a low income family, school and working your way to a potential college scholarship should be a high priority for you.</p>
+        <br>
+        <br>
+        <br>
+      </div>
+    </section>
       <hr>
 
       <footer>
         <p>&copy; 20Time, a Project by Leilee Naderi and Kedar Abhyankar</p>
       </footer>
     </div>
+    <script>
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+          /* Toggle between adding and removing the "active" class,
+          to highlight the button that controls the panel */
+          this.classList.toggle("active");
+
+          /* Toggle between hiding and showing the active panel */
+          var panel = this.nextElementSibling;
+          if (panel.style.display === "block") {
+            panel.style.display = "none";
+          } else {
+            panel.style.display = "block";
+          }
+        });
+      }
+    </script>
     <!-- /container -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script>
