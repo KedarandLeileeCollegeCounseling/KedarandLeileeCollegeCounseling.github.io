@@ -4,12 +4,13 @@
 # TEAM
 
     <name> -- <role> -- <twitter>
+    Kedar Abhyankar - Webmaster and Developer
+    Leilee Naderi - Marketing and Operations Coordinator
 
 # THANKS
 
-    <name>
+    Thanks to all the different resources used in building this site - bootstrap, atom, github, etc.
 
 # TECHNOLOGY COLOPHON
 
-    HTML5, CSS3
-    jQuery, Modernizr
+    HTML, CSS, BootStrap, JavaScript, JQuery, GitHub, etc.

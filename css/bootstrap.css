@@ -87,6 +87,7 @@ sub {
 img {
   border: 0;
 }
+
 svg:not(:root) {
   overflow: hidden;
 }
@@ -3952,20 +3953,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   text-decoration: none;
 }
 .navbar-brand > img {
-  display: block;
-}
-.navbar-brand1 {
-  float: right;
-  height: 50px;
-  padding: 15px 15px;
-  font-size: 18px;
-  line-height: 20px;
-}
-.navbar-brand1:hover,
-.navbar-brand1:focus {
-  text-decoration: none;
-}
-.navbar-brand1 > img {
   display: block;
 }
 @media (min-width: 768px) {
